@@ -32,10 +32,57 @@ img {
   width: 1000px;
   margin-left: 500px;
 }
+
 h3 {
-margin-left: 500px;
+  margin-left: 610px;
+}
+
+h2 {
+  margin-left: 110px;
 }
 
 h2.a {
   visibility: hidden;
+}
+
+#writing {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+iframe {
+  margin-left: 700px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#car {
+  margin-left: 875px;
+}
+
+#car2 {
+  padding-left: 830px;
+  padding-right: 830px;
+}
+
+div.yes {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
 }
